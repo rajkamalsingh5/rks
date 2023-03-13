@@ -1,0 +1,116 @@
+html{
+
+    font-size: 62.5%;
+
+}
+*{
+    margin: 0rem;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    padding: 0rem;
+}
+header{
+    /* width: 100%; */
+    height: 100vh;
+    background-image:url(raj4port.jpeg);
+    background-repeat: no-repeat;
+    
+ /* background-position: center; */
+ background-size: cover;
+ /* back */
+ /* background-size: auto; */
+}
+nav{
+    width: 100%; height: 15vh;
+    background:rgba(20,30,50,.3);
+    /* opacity: .3; */
+    /* font-weight: bold; */ 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    color: aquamarine;
+    width: 25%;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav .menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h3{
+ color: white;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    font-style: italic;
+    font-weight: bolder;
+    /* text-shadow: 1px 1px 2px yellow; */
+}
+section h1{
+ color: white;
+    font-size: 7rem;
+    letter-spacing: .3rem;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: .1rem .1rem .2rem yellow;
+}
+section p{
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    font-size: 3rem;
+}
+nav .menu a:first-child{
+    color: aqua;
+}
+.change_content::after{
+    content: '';
+    animation: chte 10s infinite linear;
+    color: violet;
+}
+@keyframes chte {
+0%{content: "NIT-B undergrad";}
+35%{content: "Web Developer";}
+70%{content: "Programmer";}
+/* 75%{content: "CODER";} */
+100%{content: "Workohalic person";}
+
+
+}
+    
+@media(max-width: 998px){
+
+html{
+    font-size: 55%;
+    
+}
+    
+}
+@media(max-width: 768px){
+
+html{
+    font-size: 45%;
+
+}
+    
+}
